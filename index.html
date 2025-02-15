@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Counter App</title>
+    i=<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="box">
-        <h2>This is a Responsive box</h2>
-        <h3>Adjust scrren to see Responsiveness</h3>
-       
+    <div class="counter-container">
+        <h2>Counter App</h2>
+        <p id="count">0</p>
+        <button id="increase" onclick="increaseCount()">Increase</button>
+        <button id="decrease" onclick="decreaseCount()">Decrease</button>
+        <button id="reset" onclick="resetCount()">Reset</button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 document.addEventListener("counter", init);
 
-let count = Number(sessionStorage.getItem("count"))||0 ;
+let count = Number(sessionStorage.getItem("count"))0 ;
 
 function init(){
   document.getElementById("count").textContent = count;
